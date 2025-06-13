@@ -62,10 +62,10 @@ const WeatherApp = () => {
         condition.includes(val)
       )
     ) {
-      setIcon(require('../Images/haze.png'));
+      setIcon(require('../Images/hazeicon.png'));
       setBackgroundImage(require('../Images/haze.jpg'));
     } else if (condition.includes('cloudy') || condition.includes('cloud')) {
-      setIcon(require('../Images/cloudy.png'));
+      setIcon(require('../Images/cloudyicon.png'));
       setBackgroundImage(require('../Images/cloudy.jpg'));
     }else if (condition.includes('rainy') || condition.includes('rain')) {
       setIcon(require('../Images/Rain1.jpg'));
